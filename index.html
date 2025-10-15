@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rainheart Galario | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="landing-page">
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Rainheart <span>Dev</span></h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero fullscreen">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2 class="hello">
+          <span class="word">Hello</span>
+          <span class="word">I'm</span>
+        </h2>
+        <h2 class="name"><span class="highlight">Rainheart Galario</span></h2>
+        <p><span class="typing">A full-stack Web Developer</span></p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i data-lucide="briefcase"></i>
+            View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i data-lucide="mail"></i>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="profile-frame">
+          <img src="images/profile.png" alt="Rainheart Galario">
+          <div class="profile-overlay"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-intro">
+            I’m a junior full-stack web developer with about a year of experience developing responsive and user-friendly web applications. Based in the Philippines, I work primarily with Laravel PHP, and I enjoy building clean interfaces using Tailwind CSS, Bootstrap, and JavaScript. I’m passionate about learning new technologies and improving my craft with each project I take on.
+       </p>
+          <p class="about-details">
+            My journey in web development started from a simple curiosity about how websites are built, which eventually grew into an interest in creating practical and user-friendly web applications. I try to write clean and understandable code, and I’m always learning new tools and techniques to improve my work.
+          </p>  
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Stacks section -->
+  <section id="skills" class="skills-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My Stacks</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="skills-content">
+      <div class="skills-category">
+        <div class="skills-grid">
+          
+          <!-- PHP / Laravel -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="file-code2"></i>
+            </div>
+            <h4>PHP / Laravel</h4>
+            <span>I use Laravel to quickly build reliable backend systems that are easy to maintain, allowing me to focus on solving real problems rather than reinventing the wheel.</span>
+          </div>
+
+          <!-- HTML -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="code"></i>
+            </div>
+            <h4>HTML</h4>
+            <span>HTML is my foundation for every web project; I use it to structure content in a way that makes sense for both users and browsers.</span>
+          </div>
+
+          <!-- CSS -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="paintbrush"></i>
+            </div>
+            <h4>CSS</h4>
+            <span>CSS allows me to bring my designs to life and create a visually consistent experience across different devices.</span>
+          </div>
+
+          <!-- Tailwind CSS -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="wind"></i>
+            </div>
+            <h4>Tailwind CSS</h4>
+            <span>I use Tailwind for fast prototyping and building responsive interfaces without getting bogged down in custom CSS.</span>
+          </div>
+
+          <!-- Bootstrap -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="layout"></i>
+            </div>
+            <h4>Bootstrap</h4>
+            <span>Bootstrap helps me quickly structure layouts and use prebuilt components when I want a polished UI without spending extra time.</span>
+          </div>
+
+          <!-- MySQL -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="database"></i>
+            </div>
+            <h4>MySQL</h4>
+            <span>I rely on MySQL to manage and organize data efficiently, ensuring my applications remain fast and reliable as they grow.</span>
+          </div>
+
+          <!-- RESTful APIs -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="cloud"></i>
+            </div>
+            <h4>RESTful APIs</h4>
+            <span>RESTful APIs allow me to connect different parts of my projects and integrate external services seamlessly, making my apps more versatile.</span>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i data-lucide="square-terminal"></i>
+            </div>
+            <h4>JavaScript</h4>
+            <span>JavaScript brings my projects to life by adding interactivity and dynamic behavior that improves the overall user experience.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Tools & Technologies section -->
+  <div class="skills-category">
+  <h3 class="category-title">Tools & Technologies</h3>
+  <div class="tools-grid">
+    
+    <div class="tool-item">
+      <i data-lucide="git-branch"></i>
+      <span>Git & GitHub</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="box"></i>
+      <span>Docker</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="send"></i>
+      <span>Postman</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="code"></i>
+      <span>VS Code</span>
+    </div>
+
+    <!-- Design & Prototyping -->
+    <div class="tool-item">
+      <i data-lucide="layout"></i>
+      <span>Figma</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="pen-tool"></i>
+      <span>Canva</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="image"></i>
+      <span>Adobe Photoshop</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="palette"></i>
+      <span>Adobe Illustrator</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="shapes"></i>
+      <span>Lucidchart</span>
+    </div>
+
+    <!-- Google Workspace (Centralized) -->
+    <div class="tool-item">
+      <i data-lucide="folder"></i>
+      <span>Google Workspace</span>
+    </div>
+
+    <!-- Productivity & Collaboration -->
+    <div class="tool-item">
+      <i data-lucide="message-square"></i>
+      <span>Slack</span>
+    </div>
+    <div class="tool-item">
+      <i data-lucide="users"></i>
+      <span>Microsoft Teams</span>
+    </div>
+  </div>
+</div>
+
+  <!-- Featured Projects section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-grid">
+        
+  <!-- TAJMS  -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://tajms.06222001.xyz/" class="project-link">
+                  <i data-lucide="external-link"></i>
+                  Live Demo
+                </a>
+                <a href="https://github.com/TheRedCloudProject/TAJMS" class="project-link">
+                  <i data-lucide="github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+         <div class="project-placeholder" data-bg="data:image/jpeg;base64,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">
+  <span>OJT Monitoring System</span>
+</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Trainee Attendance and Journal Monitoring System</h3>
+            <p class="project-description">
+   Simplifies OJT management for students and coordinators. From attendance tracking to journal monitoring. With ready-to-print journal entries and attendance sheets for complete OJT documentation, all in one seamless platform.
+        </p>
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind-CSS</span>
+              <span class="tech-tag">Blade</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PHP</span>
+            </div>
+          </div>
+        </div>
+        
+  <!-- CGAIS  -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i data-lucide="external-link"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i data-lucide="github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="check-square"></i>
+              <span>Counseling Management System</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Guidance and Counsiling Services</h3>
+            <p class="project-description">
+             A powerful counseling management system for campuses with appointment scheduling, session history, and real-time analytics. Includes multi-role access, audit trails, and a modern responsive dashboard for seamless guidance operations.
+            <div class="project-tech">
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind-CSS</span>
+              <span class="tech-tag">Blade</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PHP</span>
+            </div>
+          </div>
+        </div>
+        
+  <!-- StartTabs  -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i data-lucide="external-link"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i data-lucide="github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="cloud-rain"></i>
+              <span>Google Extension</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">StartTabs</h3>
+            <p class="project-description">
+              A smart tab management extension that organizes your favorite websites into two groups for quick access. Instantly open one set in your main window and another on a separate screen, with optional pinned tabs for key pages. Perfect for boosting productivity and streamlining daily browsing routines.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">OpenWeather API</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+          </div>
+        </div>
+        
+  <!-- Portfolio  -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i data-lucide="external-link"></i>
+                  Live Demo
+                </a>
+                <a href="https://github.com/zbragt644-debug/StartTabs-v.4" class="project-link">
+                  <i data-lucide="github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="user"></i>
+              <span>Portfolio Website</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-description">
+              A modern, responsive portfolio website showcasing my work and skills. Features smooth animations, interactive elements, and optimized performance.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">GSAP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="mail"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <a href="mailto:rainheart@example.com">rainheart@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="linkedin"></i>
+            </div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/rainheart" target="_blank">linkedin.com/in/rainheart</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="github"></i>
+            </div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <a href="https://github.com/rainheart" target="_blank">github.com/rainheart</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="globe"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Portfolio</h4>
+              <a href="https://rainheart.dev" target="_blank">rainheart.dev</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form class="contact-form-content">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <i data-lucide="send"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Rainheart Galario. All rights reserved.</p>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-link">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i data-lucide="twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Initialize Lucide Icons -->
+  <script>lucide.createIcons();</script>
+</body>
+</html>
