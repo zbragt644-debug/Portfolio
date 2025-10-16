@@ -2,24 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rainheart Galario | Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css" />
+
   <!-- Particles.js -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
   <!-- GSAP & ScrollTrigger -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body class="landing-page">
   <!-- Particles Background -->
   <div id="particles-js"></div>
-  
+
   <!-- Navbar -->
   <header>
     <nav class="navbar">
@@ -50,18 +59,19 @@
         <p><span class="typing">A full-stack Web Developer</span></p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">
-            <i data-lucide="briefcase"></i>
-            View My Work
+            <i data-lucide="briefcase"></i> View My Work
           </a>
           <a href="#contact" class="btn btn-secondary">
-            <i data-lucide="mail"></i>
-            Get In Touch
+            <i data-lucide="mail"></i> Get In Touch
           </a>
         </div>
       </div>
       <div class="hero-img">
         <div class="profile-frame">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjU-f4NP_qPHhRcMlGvK1pklezLCQGf2TXw&s" alt="Rainheart Galario">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjU-f4NP_qPHhRcMlGvK1pklezLCQGf2TXw&s"
+            alt="Rainheart Galario"
+          >
           <div class="profile-overlay"></div>
         </div>
       </div>
@@ -82,11 +92,10 @@
         <div class="about-text">
           <p class="about-intro">
             I’m a junior full-stack web developer with about a year of experience developing responsive and user-friendly web applications. Based in the Philippines, I work primarily with Laravel PHP, and I enjoy building clean interfaces using Tailwind CSS, Bootstrap, and JavaScript. I’m passionate about learning new technologies and improving my craft with each project I take on.
-       </p>
+          </p>
           <p class="about-details">
             My journey in web development started from a simple curiosity about how websites are built, which eventually grew into an interest in creating practical and user-friendly web applications. I try to write clean and understandable code, and I’m always learning new tools and techniques to improve my work.
-          </p>  
-
+          </p>
         </div>
       </div>
     </div>
@@ -94,214 +103,227 @@
 
   <!-- My Stacks section -->
   <section id="skills" class="skills-section">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">My Stacks</h2>
-      <div class="section-divider"></div>
-    </div>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My Stacks</h2>
+        <div class="section-divider"></div>
+      </div>
 
-    <div class="skills-content">
-      <div class="skills-category">
-        <div class="skills-grid">
-          
-          <!-- PHP / Laravel -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="file-code2"></i>
-            </div>
-            <h4>PHP / Laravel</h4>
-            <span>I use Laravel to quickly build reliable backend systems that are easy to maintain, allowing me to focus on solving real problems rather than reinventing the wheel.</span>
-          </div>
+      <div class="skills-content">
+        <div class="skills-category">
+          <div class="skills-grid">
 
-          <!-- HTML -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="code"></i>
+            <!-- PHP / Laravel -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="file-code2"></i></div>
+              <h4>PHP / Laravel</h4>
+              <span>I use Laravel to quickly build reliable backend systems that are easy to maintain, allowing me to focus on solving real problems rather than reinventing the wheel.</span>
             </div>
-            <h4>HTML</h4>
-            <span>HTML is my foundation for every web project; I use it to structure content in a way that makes sense for both users and browsers.</span>
-          </div>
 
-          <!-- CSS -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="paintbrush"></i>
+            <!-- HTML -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="code"></i></div>
+              <h4>HTML</h4>
+              <span>HTML is my foundation for every web project; I use it to structure content in a way that makes sense for both users and browsers.</span>
             </div>
-            <h4>CSS</h4>
-            <span>CSS allows me to bring my designs to life and create a visually consistent experience across different devices.</span>
-          </div>
 
-          <!-- Tailwind CSS -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="wind"></i>
+            <!-- CSS -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="paintbrush"></i></div>
+              <h4>CSS</h4>
+              <span>CSS allows me to bring my designs to life and create a visually consistent experience across different devices.</span>
             </div>
-            <h4>Tailwind CSS</h4>
-            <span>I use Tailwind for fast prototyping and building responsive interfaces without getting bogged down in custom CSS.</span>
-          </div>
 
-          <!-- Bootstrap -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="layout"></i>
+            <!-- Tailwind CSS -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="wind"></i></div>
+              <h4>Tailwind CSS</h4>
+              <span>I use Tailwind for fast prototyping and building responsive interfaces without getting bogged down in custom CSS.</span>
             </div>
-            <h4>Bootstrap</h4>
-            <span>Bootstrap helps me quickly structure layouts and use prebuilt components when I want a polished UI without spending extra time.</span>
-          </div>
 
-          <!-- MySQL -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="database"></i>
+            <!-- Bootstrap -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="layout"></i></div>
+              <h4>Bootstrap</h4>
+              <span>Bootstrap helps me quickly structure layouts and use prebuilt components when I want a polished UI without spending extra time.</span>
             </div>
-            <h4>MySQL</h4>
-            <span>I rely on MySQL to manage and organize data efficiently, ensuring my applications remain fast and reliable as they grow.</span>
-          </div>
 
-          <!-- RESTful APIs -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="cloud"></i>
+            <!-- MySQL -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="database"></i></div>
+              <h4>MySQL</h4>
+              <span>I rely on MySQL to manage and organize data efficiently, ensuring my applications remain fast and reliable as they grow.</span>
             </div>
-            <h4>RESTful APIs</h4>
-            <span>RESTful APIs allow me to connect different parts of my projects and integrate external services seamlessly, making my apps more versatile.</span>
-          </div>
 
-          <!-- JavaScript -->
-          <div class="skill-item">
-            <div class="skill-icon">
-              <i data-lucide="square-terminal"></i>
+            <!-- RESTful APIs -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="cloud"></i></div>
+              <h4>RESTful APIs</h4>
+              <span>RESTful APIs allow me to connect different parts of my projects and integrate external services seamlessly, making my apps more versatile.</span>
             </div>
-            <h4>JavaScript</h4>
-            <span>JavaScript brings my projects to life by adding interactivity and dynamic behavior that improves the overall user experience.</span>
+
+            <!-- JavaScript -->
+            <div class="skill-item">
+              <div class="skill-icon"><i data-lucide="square-terminal"></i></div>
+              <h4>JavaScript</h4>
+              <span>JavaScript brings my projects to life by adding interactivity and dynamic behavior that improves the overall user experience.</span>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    <!-- Tools & Technologies section -->
+  <!-- Tools & Technologies section -->
   <div class="skills-category">
-  <h3 class="category-title">Tools & Technologies</h3>
-  <div class="tools-grid">
-    
-    <div class="tool-item">
-      <i data-lucide="git-branch"></i>
-      <span>Git & GitHub</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="box"></i>
-      <span>Docker</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="send"></i>
-      <span>Postman</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="code"></i>
-      <span>VS Code</span>
-    </div>
-
-    <!-- Design & Prototyping -->
-    <div class="tool-item">
-      <i data-lucide="layout"></i>
-      <span>Figma</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="pen-tool"></i>
-      <span>Canva</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="image"></i>
-      <span>Adobe Photoshop</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="palette"></i>
-      <span>Adobe Illustrator</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="shapes"></i>
-      <span>Lucidchart</span>
-    </div>
-
-    <!-- Google Workspace (Centralized) -->
-    <div class="tool-item">
-      <i data-lucide="folder"></i>
-      <span>Google Workspace</span>
-    </div>
-
-    <!-- Productivity & Collaboration -->
-    <div class="tool-item">
-      <i data-lucide="message-square"></i>
-      <span>Slack</span>
-    </div>
-    <div class="tool-item">
-      <i data-lucide="users"></i>
-      <span>Microsoft Teams</span>
+    <h3 class="category-title">Tools & Technologies</h3>
+    <div class="tools-grid">
+      <div class="tool-item"><i data-lucide="git-branch"></i><span>Git & GitHub</span></div>
+      <div class="tool-item"><i data-lucide="box"></i><span>Docker</span></div>
+      <div class="tool-item"><i data-lucide="send"></i><span>Postman</span></div>
+      <div class="tool-item"><i data-lucide="code"></i><span>VS Code</span></div>
+      <div class="tool-item"><i data-lucide="layout"></i><span>Figma</span></div>
+      <div class="tool-item"><i data-lucide="pen-tool"></i><span>Canva</span></div>
+      <div class="tool-item"><i data-lucide="image"></i><span>Adobe Photoshop</span></div>
+      <div class="tool-item"><i data-lucide="palette"></i><span>Adobe Illustrator</span></div>
+      <div class="tool-item"><i data-lucide="shapes"></i><span>Lucidchart</span></div>
+      <div class="tool-item"><i data-lucide="folder"></i><span>Google Workspace</span></div>
+      <div class="tool-item"><i data-lucide="message-square"></i><span>Slack</span></div>
+      <div class="tool-item"><i data-lucide="users"></i><span>Microsoft Teams</span></div>
     </div>
   </div>
-</div>
 
- <!-- Featured Projects section -->
-<section id="projects" class="projects-section">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="section-divider"></div>
+  <!-- Featured Projects section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- TAJMS -->
+        <div class="project-card">
+          <div class="project-image tajms">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com/TheRedCloudProject/TAJMS" class="project-link">
+                  <i data-lucide="github"></i> Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder"><span>OJT Monitoring System</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Trainee Attendance and Journal Monitoring System</h3>
+            <p class="project-description">
+              Simplifies OJT management for students and coordinators. From attendance tracking to journal monitoring. With ready-to-print journal entries and attendance sheets for complete OJT documentation, all in one seamless platform.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind-CSS</span>
+              <span class="tech-tag">Blade</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CGAIS -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="#" class="project-link"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="check-square"></i>
+              <span>Counseling Management System</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Guidance and Counsiling Services</h3>
+            <p class="project-description">
+              A powerful counseling management system for campuses with appointment scheduling, session history, and real-time analytics. Includes multi-role access, audit trails, and a modern responsive dashboard for seamless guidance operations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind-CSS</span>
+              <span class="tech-tag">Blade</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- StartTabs -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="#" class="project-link"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="cloud-rain"></i>
+              <span>Google Extension</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">StartTabs</h3>
+            <p class="project-description">
+              A smart tab management extension that organizes your favorite websites into two groups for quick access. Instantly open one set in your main window and another on a separate screen, with optional pinned tabs for key pages. Perfect for boosting productivity and streamlining daily browsing routines.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">OpenWeather API</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com/zbragt644-debug/StartTabs-v.4" class="project-link">
+                  <i data-lucide="github"></i> Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i data-lucide="user"></i>
+              <span>Portfolio Website</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-description">
+              A modern, responsive portfolio website showcasing my work and skills. Features smooth animations, interactive elements, and optimized performance.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">GSAP</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="projects-grid">
-      <!-- Project 1: TAJMS -->
-      <div class="project-card" style="background-image: url('assets/img/projects/tajms-bg.jpg');">
-        <div class="project-overlay">
-          <h3 class="project-title">TAJMS</h3>
-          <p class="project-desc">
-            A task and job management system built with Laravel and MySQL, featuring
-            a dashboard, user role system, and project tracking analytics.
-          </p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
-        </div>
-      </div>
-
-      <!-- Project 2: Portfolio Website -->
-      <div class="project-card" style="background-image: url('assets/img/projects/portfolio-bg.jpg');">
-        <div class="project-overlay">
-          <h3 class="project-title">Personal Portfolio</h3>
-          <p class="project-desc">
-            My personal web portfolio built with HTML, CSS, and GSAP animations,
-            showcasing my work, skills, and contact information.
-          </p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
-        </div>
-      </div>
-
-      <!-- Project 3: E-Commerce Admin Dashboard -->
-      <div class="project-card" style="background-image: url('assets/img/projects/ecommerce-bg.jpg');">
-        <div class="project-overlay">
-          <h3 class="project-title">E-Commerce Admin Dashboard</h3>
-          <p class="project-desc">
-            A responsive admin dashboard for managing product inventory, orders,
-            and user accounts — powered by React and Firebase.
-          </p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
-        </div>
-      </div>
-
-      <!-- Project 4: Helpdesk Ticketing System -->
-      <div class="project-card" style="background-image: url('assets/img/projects/helpdesk-bg.jpg');">
-        <div class="project-overlay">
-          <h3 class="project-title">Helpdesk Ticketing System</h3>
-          <p class="project-desc">
-            A ticket management system for internal company support, with SLA
-            tracking and email notifications. Built using PHP and Bootstrap.
-          </p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section">
@@ -313,73 +335,60 @@
       <div class="contact-content">
         <div class="contact-info">
           <div class="contact-item">
-            <div class="contact-icon">
-              <i data-lucide="mail"></i>
-            </div>
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
             <div class="contact-details">
               <h4>Email</h4>
               <a href="mailto:galario.rainheart16@gmail.com">galario.rainheart16@gmail.com</a>
-           </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i data-lucide="linkedin"></i>
             </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i data-lucide="linkedin"></i></div>
             <div class="contact-details">
               <h4>LinkedIn</h4>
               <a href="https://linkedin.com/in/rainheart" target="_blank">linkedin.com/in/rainheart</a>
             </div>
           </div>
+
           <div class="contact-item">
-            <div class="contact-icon">
-              <i data-lucide="github"></i>
-            </div>
+            <div class="contact-icon"><i data-lucide="github"></i></div>
             <div class="contact-details">
               <h4>GitHub</h4>
               <a href="https://github.com/rainheart" target="_blank">https://github.com/RainyCl0ud</a>
             </div>
           </div>
+
           <div class="contact-item">
-            <div class="contact-icon">
-              <i data-lucide="globe"></i>
-            </div>
+            <div class="contact-icon"><i data-lucide="globe"></i></div>
             <div class="contact-details">
               <h4>Portfolio</h4>
               <a href="https://rainheart.dev" target="_blank">https://rainheartgalario.oneapp.dev</a>
             </div>
           </div>
         </div>
+
         <div class="contact-form">
           <form class="contact-form-content">
-            <div class="form-group">
-              <input type="text" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-              <input type="text" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea placeholder="Your Message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">
-              <i data-lucide="send"></i>
-              Send Message
-            </button>
+            <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+            <div class="form-group"><input type="email" placeholder="Your Email" required></div>
+            <div class="form-group"><input type="text" placeholder="Subject" required></div>
+            <div class="form-group"><textarea placeholder="Your Message" rows="5" required></textarea></div>
+            <button type="submit" class="submit-btn"><i data-lucide="send"></i> Send Message</button>
           </form>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer section  -->
+  <!-- Footer section -->
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
         <div class="footer-text">
           <p>&copy; 2025 Rainheart Galario. All rights reserved.</p>
         </div>
+       
+
         <div class="footer-social">
           <a href="#" class="social-link">
             <i data-lucide="github"></i>
