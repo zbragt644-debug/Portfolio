@@ -620,7 +620,7 @@ section {
 }
 
 .project-image.tajms {
-  background-image: url('images/tajms.png');
+  background-image: url('/images/tajms.png');
 }
 
 .project-image.cgais {
