@@ -413,7 +413,7 @@ section {
 
 .about-intro {
   font-size: 1.3rem;
-  color: var(--text-secondary);
+  color:#ececec;
   margin-bottom: 1.5rem;
   line-height: 1.8;
 }
