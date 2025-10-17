@@ -412,7 +412,7 @@ section {
 }
 
 .about-intro {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
   line-height: 1.8;
@@ -1123,5 +1123,6 @@ section {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
 }
 
