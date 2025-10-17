@@ -92,6 +92,9 @@ particlesJS('particles-js', {
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize GSAP ScrollTrigger
     gsap.registerPlugin(ScrollTrigger);
+
+
+    
     
     // Mobile Menu Toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
@@ -112,6 +115,9 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileMenuBtn.classList.remove('active');
         });
     });
+
+
+
 
     // Smooth scrolling for navigation links
     navLinksItems.forEach(link => {
