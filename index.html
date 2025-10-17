@@ -13,6 +13,16 @@
   >
 
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Particles.js -->
+<script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body class="landing-page">
@@ -224,21 +234,82 @@
             <div class="project-overlay">
               <div class="project-links">
                 <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
-                <a href="https://github.com/TheRedCloudProject/CG-AIS" class="project-link"><i data-lucide="github"></i> Source Code</a>
+                <a href="#" class="project-link"><i data-lucide="github"></i> Source Code</a>
               </div>
             </div>
-            <div class="project-placeholder"><span>Course Grade Access and Information System</span></div>
+            <div class="project-placeholder">
+              <span>Counseling Management System</span>
+            </div>
           </div>
           <div class="project-content">
-            <h3 class="project-title">Course Grade Access and Information System</h3>
+            <h3 class="project-title">Guidance and Counsiling Services</h3>
             <p class="project-description">
-              Developed a web-based platform for students and faculty to efficiently access and manage course grades, streamlining communication and administrative tasks.
+              A powerful counseling management system for campuses with appointment scheduling, session history, and real-time analytics. Includes multi-role access, audit trails, and a modern responsive dashboard for seamless guidance operations.
             </p>
             <div class="project-tech">
-              <span class="tech-tag">PHP</span>
-              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">CSS</span>
               <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Tailwind-CSS</span>
+              <span class="tech-tag">Blade</span>
               <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- StartTabs -->
+        <div class="project-card">
+          <div class="project-image startabs">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="#" class="project-link"><i data-lucide="github"></i> Source Code</a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <span>Google Extension</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">StartTabs</h3>
+            <p class="project-description">
+              A smart tab management extension that organizes your favorite websites into two groups for quick access. Instantly open one set in your main window and another on a separate screen, with optional pinned tabs for key pages. Perfect for boosting productivity and streamlining daily browsing routines.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">OpenWeather API</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="project-card">
+          <div class="project-image portfolio">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i data-lucide="external-link"></i> Live Demo</a>
+                <a href="https://github.com/zbragt644-debug/StartTabs-v.4" class="project-link">
+                  <i data-lucide="github"></i> Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <span>Portfolio Website</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-description">
+              A modern, responsive portfolio website showcasing my work and skills. Features smooth animations, interactive elements, and optimized performance.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">GSAP</span>
             </div>
           </div>
         </div>
@@ -256,14 +327,46 @@
       <div class="contact-content">
         <div class="contact-info">
           <div class="contact-item">
-            <div class="contact-icon">
-              <i data-lucide="mail"></i>
-            </div>
-            <div class="contact-text">
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-details">
               <h4>Email</h4>
-              <p>rainheart@example.com</p>
+              <a href="mailto:galario.rainheart16@gmail.com">galario.rainheart16@gmail.com</a>
             </div>
           </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i data-lucide="linkedin"></i></div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/rainheart" target="_blank">linkedin.com/in/rainheart</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i data-lucide="github"></i></div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <a href="https://github.com/rainheart" target="_blank">https://github.com/RainyCl0ud</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i data-lucide="globe"></i></div>
+            <div class="contact-details">
+              <h4>Portfolio</h4>
+              <a href="https://rainheart.dev" target="_blank">https://rainheartgalario.oneapp.dev</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form class="contact-form-content">
+            <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+            <div class="form-group"><input type="email" placeholder="Your Email" required></div>
+            <div class="form-group"><input type="text" placeholder="Subject" required></div>
+            <div class="form-group"><textarea placeholder="Your Message" rows="5" required></textarea></div>
+            <button type="submit" class="submit-btn"><i data-lucide="send"></i> Send Message</button>
+          </form>
         </div>
       </div>
     </div>
@@ -276,21 +379,26 @@
         <div class="footer-text">
           <p>&copy; 2025 Rainheart Galario. All rights reserved.</p>
         </div>
+       
+
         <div class="footer-social">
-          <a href="#" class="social-link"><i data-lucide="github"></i></a>
-          <a href="#" class="social-link"><i data-lucide="linkedin"></i></a>
-          <a href="#" class="social-link"><i data-lucide="twitter"></i></a>
+          <a href="#" class="social-link">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i data-lucide="twitter"></i>
+          </a>
         </div>
       </div>
     </div>
   </footer>
-
-  <!-- ✅ Correct Script Loading: particles.js first -->
-  <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script defer src="https://unpkg.com/lucide@latest"></script>
-  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="script.js"></script>
+    <!-- Initialize Lucide Icons -->
   <script>lucide.createIcons();</script>
 </body>
 </html>
+
